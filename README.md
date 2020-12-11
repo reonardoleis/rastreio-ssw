@@ -9,18 +9,15 @@
 
 ### 1. Instalação
 
-Você pode instalar utilizando o NPM. Para isso, basta executar o seguinte comando:
+Basta clonar o projeto (ou somente a pasta _src_) e colocar na pasta do seu projeto. Após isso, basta fazer a importação passando o caminho relativo. Por exemplo, caso os arquivos da pasta _src_ da biblioteca estejam numa pasta chamada _rastreio_ do seu projeto, basta importar como descrito no passo 2.
 
-```sh
-$ npm install rastreio-ssw
-```
 
 ### 2. Utilização
 
-Você deve importar a biblioteca no seu projeto. Atualmente, só existe a busca de encomenda por CPF (retornará a encomenda mais nova cadastrada). 
+Você deve importar a biblioteca no seu projeto. Atualmente, só existe a busca de encomenda por CPF (retornará a encomenda mais nova cadastrada). Exemplo:
 
 ```javascript
-const { searchByCpf } = require('rastreio-ssw');
+const { searchByCpf } = require('./rastreio/ssw');
 ```
 
 ## Show your support
