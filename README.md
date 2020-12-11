@@ -1,9 +1,9 @@
-<h1 align="center">Welcome to Rastreio SSW 👋</h1>
+<h1 align="center">Rastreio SSW 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Implementação para rastreio de encomendas de transportadoras que utilizam o sistema SSW. Utiliza Selenium para a pesquisa e retorna JSON que será retornado ao usuário via callback que utiliza o método _res.end()_ do ExpressJS. **Feito para ser utilizado usando ExpressJS como server. Você pode ver um exemplo de utilização em _examples_.**.
+> Implementação para rastreio de encomendas de transportadoras que utilizam o sistema SSW. Utiliza Selenium para a pesquisa e retorna JSON que será retornado ao usuário via callback que utiliza o método _res.end()_ do ExpressJS. **Feito para ser utilizado usando ExpressJS como server. Você pode ver um exemplo de utilização em _examples_.**
 
 ## Utilização
 
